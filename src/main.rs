@@ -2,8 +2,8 @@ use rust_sc2::prelude::*;
 
 #[bot]
 #[derive(Default)]
-struct WorkerRush;
-impl Player for WorkerRush {
+struct StalkerTiming;
+impl Player for StalkerTiming {
     fn get_player_settings(&self) -> PlayerSettings {
         PlayerSettings::new(Race::Protoss)
     }
