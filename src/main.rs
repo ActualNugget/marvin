@@ -16,7 +16,7 @@ impl Player for StalkerTiming {
 }
 
 fn main() -> SC2Result<()> {
-    let mut bot = WorkerRush::default();
+    let mut bot = StalkerTiming::default();
     run_vs_computer(
         &mut bot,
         Computer::new(Race::Random, Difficulty::Medium, None),
